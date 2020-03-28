@@ -16,7 +16,7 @@ h1{
 	text-align:center;
 	border-top:black .15em solid;
 	border-bottom:black .15em solid;
- /*	width: fit-content; Ajusta el contenido al tamaño de la página.*/
+ 	width: fit-content;/* Ajusta el contenido al tamaño de la página.*/
 
 }
 h3{
@@ -34,6 +34,7 @@ h3{
 #intro{
 	font-family:'Roboto Condensed', sans-serif;
 	text-align:justify;
+	width: fit-content;
 	padding-left:.8em;
 	padding-right:.8em;
 	padding-bottom:1em;
