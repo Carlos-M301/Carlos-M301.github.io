@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+size: 2em;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.grid{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns:[i]100px [L]200px [M]200px [Mi]200px [v]200px ; 
+    grid-template-rows: 50px repeat(6,200px);
+    grid-gap: 20px;
+    position: relative;
+    top:50px;
+    /*grid-gap: 20px; aplica márgenes interiores*/
+}
+img{
+    max-width: 80%;
+    height: 120px;
+    position: relative;
+    left: 100px;
+}
+.esquina{
+    position: relative;
+}
+.recuadro{
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15px;
+    height: 15px;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    top:-10px;
+    z-index: 100;
+    background-color: yellow;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    justify-content: left;
+}
+ul{
+    list-style-type:none ;
+   position: relative;
+   top:50px;
+   right: 100px;
+}
+li{
+    
+    display: inline;
+}
+.opciones{
+    justify-content: left;
+}
+.grid h3{
+    padding: 20px;
+    background-color: white;
+}
+.c1{
+    grid-column: 2 /2;
+    
+}
+.c2{
+    grid-column: 3/3;
+}
+.c3{
+    grid-column: 4/4;
+}
+.c4{
+    grid-column: 5/5;
+}
+.c5{
+    grid-column: 1/1;
+    grid-row: 1/1;
+}
+.r0{
+    grid-column: 1/1;
+    grid-row: 1/2;
+}
+.r1{
+    
+    grid-row: 2/2;
+}
+.r2{
+    grid-row: 3/3;
+}
+.r3{
+    grid-row: 4/4;
+}
+.r4{
+    grid-row: 5/5;
+}
+.r5{
+    grid-row: 6/6;
+}
+.r6{
+    grid-row: 7/7;
+}
+.grid .azul{
+    background-color: blue;
+}
+.grid .verde{
+    background-color: green;
+}
+.grid .morado{
+    background-color: purple;
+}
+.grid .naranja{
+    background-color: orange;
+}
+.grid .gris{
+    background-color: gray;
+}
+span{
+    color: white;
+    padding-left: 1em;
+}
+.T1{
+    grid-area: 2/2/4/2;
+}
+.T2{
+    grid-area: 4/2/4/4;
+}
+.T3{
+    grid-area: 6/2/6/2;
+}
+.T5{
+    grid-area: 6/3/6/5;
+}
+.T6{
+    grid-area:7/3/7/4;
+}
+.T8{
+    grid-area: 5/4/3/5;
+}
+.T9{
+    grid-area: 7/4/7/5;
+}
+.T10{
+    grid-area:5/6/2/5;
+}
+.T11{
+    grid-area: 6/5/7/6;
+}
+.T12{
+    grid-area: 5/2/6/6;
+}
+
+
+
+
+
+
+
+
+
+   /*   grid-template-columns: [line1] 40px [line2] 50px [line3] auto [line4] 50px [line5]  ; 
+   grid-template-rows: [row1] 25% [row2] 100px [row3] auto [endrow];
+   
+   
+  
+   */

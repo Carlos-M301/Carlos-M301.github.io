@@ -1,0 +1,9 @@
+.carousel-item, .carousel-item img{
+    height: 32rem;
+}
+.carousel{
+    margin-bottom: 3rem;
+}
+.images{
+    text-align: center;
+}

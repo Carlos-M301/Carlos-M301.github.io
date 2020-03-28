@@ -1,0 +1,83 @@
+*{
+margin:0;
+padding:0;
+}
+body{
+	padding:16px;
+	background:#DAD3CD;	
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+	}
+h1{
+	font-family: 'Bebas Neue';
+	margin:3px;
+	width:99.5%;
+	text-align:center;
+	border-top:black .15em solid;
+	border-bottom:black .15em solid;
+ /*	width: fit-content; Ajusta el contenido al tamaño de la página.*/
+
+}
+h3{
+	font-family: 'Oswald', sans-serif;
+	padding-bottom:.5em;
+	padding-left:.8em;
+}
+#encabezado{
+	padding-top:.5em;
+	padding-bottom:1em;
+	font-family:'Roboto Condensed', sans-serif;
+	display: flex;
+
+}
+#intro{
+	font-family:'Roboto Condensed', sans-serif;
+	text-align:justify;
+	padding-left:.8em;
+	padding-right:.8em;
+	padding-bottom:1em;
+}
+.contenido{
+	display: flex;
+	background:white;
+	box-shadow: 4px 4px 20px #666; 
+	border: 1px solid #000000;
+	-moz-border-radius: 9px;
+	-webkit-border-radius:9px;
+	padding: 10px;
+}
+.imagen{
+	width:17%;
+	padding-left:5em;
+	float:left;
+	padding-right:1em;
+	
+}
+.imagen img{
+	max-width:100%;
+	padding-top:.8em;
+}
+.precio{
+	text-align:justify;
+	font-family:'Roboto Condensed', sans-serif;
+}
+.texto{
+	width:70%;
+}
+.texto p{
+	text-align:justify;
+}
+.precio{
+	float:right;
+	padding-bottom:.5em;
+	letter-spacing:.1em;
+
+}
+.descripcion{
+font-family: 'Open Sans Condensed', sans-serif;
+}
+.texto{
+	clear:inline-end;
+}
+

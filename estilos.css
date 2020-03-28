@@ -1,11 +1,7 @@
 a:link{
     text-decoration: none;
 }
-.icon{
-
-    width: 10%;
-    top: -2px;
-}
-svg{
-    padding-left: 2em;
+svg, .icono{
+    position: absolute;
+    top: 20px;
 }

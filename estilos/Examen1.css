@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #A39997;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.navegacion ul{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+.navegacion li{
+    display: inline-block;
+    padding-right: 1em;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns:[fcl] auto [scl] 250px [tcl] 250px [focl] 250px [ficl]auto;
+    grid-template-rows:  [frl] 130px [srl] 300px [trl] 200px [frl] ;
+    background-color: #C7D0D7;
+    grid-gap: 25px;
+    border: 10px;
+}
+.perfil{
+    background-color: white;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px #2D2D2D;
+    transition: ease 1s, width 3s, height 3s;
+}
+.perfil:hover{
+    background-color: #C7C4CA;
+    width: 260px;
+    height: 310px;
+}
+.candidato1{
+    grid-area: srl/scl/srl /tcl ;
+}
+.candidato2{
+    grid-area: srl/tcl ;
+}
+.candidato3{
+    grid-area: srl/focl;
+}
+.circular{
+    width: 60%;
+    border-radius: 80px;
+    position: absolute;
+    top:-80px;
+    right: 50px;
+    box-shadow: 2px 2px 10px #2D2D2D;
+}
+.informacion{
+    position: relative;
+    top:90px;
+    padding-right: 3em;
+    padding-left: 3em; 
+}
+span{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+p{
+    text-align: center;
+    padding-top: .5em;
+   
+    
+}
+.desc{
+    text-align: justify;
+}
+.nombre{
+    font-family: 'Oswald', sans-serif;
+}
+.redes{
+    position: absolute;
+    bottom: 25px;
+    left: 35px;
+}
+.profesion{
+    font-family: 'Dosis', sans-serif;
+}
+.desc{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.icono{
+    width: 25%;
+    padding-left: 1em;
+}
+.titulo{
+    font-family: 'Dosis', sans-serif;
+}
+li{
+    font-family: 'Dosis', sans-serif;
+}
+
+

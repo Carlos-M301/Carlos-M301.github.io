@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+.Padre{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    position: relative;
+    padding-left: 1em;
+    font-family: 'Montserrat';
+}
+#disponi_enviada_correctamente,#forgetPassword{
+    background-color:#1AAF32;
+}
+#Aviso{
+    background-color: #ffc107;
+}
+#Error_changepsw, #Error_changepsw_cambioclave,
+#Error_changepsw_registro,#Error_validate_pswe,
+#Error_validate_user,#Error_insertDisp{
+    background-color: #CE2222;
+}
+#algo{
+    background-color: #2253CE;
+}
+#e{
+    background-color: #CE8D22;
+}
+.Modal-Contenedor{
+    position: relative;
+    color: #fff;
+}
+.cerrar{
+    size: 2em;
+    position: absolute;
+    top:0%;
+    right: 0%;
+    padding-top: 1.3em;
+    padding-right: 1em;
+}
+.Modal-Contenedor p{
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    width: 95%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding-top: 1em;
+    size: 2em;
+}

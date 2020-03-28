@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>Formulario de compra</title>
+	</head>
+<body>
+	
+	<form>
+		<h4>Step 1: Your details.</h4>
+			<label> Name: <input type="text" name="name" required /></label><br><br>
+			<label> Email:<input type="email" name="email"/></label><br><br>
+			<label> Phone:<input type="tel" name="tel"/></label><br>
+			
+			<h4>Step 2: Delivery address</h4>
+			<label>Address:<textarea name="address" rows="10" cols="20"></textarea></label><br><br>
+			<label>Post code: <input type="number" name="pc"/></label><br><br>
+			<label>Country: 
+			<select name="country">
+			<option>Mexico</option>
+			<option>EUA</option>
+			<option>Germani</option>
+			<option>Japan</option>
+			</select>
+			</label><br>
+			
+			<h4>step 3:Card details</h4>
+			<label>Card type:</label><br><br>
+			<input type="radio" name="card"/>
+			<label><img src="https://img.icons8.com/android/24/000000/visa.png">Visa</label>
+			<input type="radio" name ="card"/>
+			<label><img src="https://img.icons8.com/office/16/000000/mastercard.png">MasterCard</label><br><br>
+			<label>Card number: <input type="password"/></label><br><br>
+			<label>Name on card: <input type="text"/></label><br><br>
+			
+			<input type="submit" value="Buy it!"/>
+			
+	</form>
+</body>	
+</html>

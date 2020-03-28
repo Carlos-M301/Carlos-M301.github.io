@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/Alerta.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="Padre" id="disponi_enviada_correctamente">
+            <div class="Modal-Contenedor">
+                <p class="parrafo">Su disponibilidad ha sido guardada exitosamente.</p>
+        </div>
+        <div class="cerrar"><a class="tachita">X</a></div>
+    </div>
+        <br>
+        <div class="Padre" id="forgetPassword">
+            <div class="Modal-Contenedor">
+                <p class="parrafo">Cambio de contraseña exitoso.</p>
+        </div>
+        <div class="cerrar"><a class="tachita">X</a></div>
+    </div>
+        <br>
+
+<!--Archivo php/account "changepsw"-->
+    <div class="Padre" id="Error_changepsw">
+        <div class="Modal-Contenedor">
+            <p>Las contraseñas no son iguales.</p>
+        </div>
+            <div class="cerrar"><a class="tachita">X</a></div>
+    </div>
+<br>
+
+    <div class="Padre " id="Error_changepsw_cambioclave">
+        <div class="Modal-Contenedor">
+        <p>¡Algo malo pasó!, intente de nuevo.</p>
+        </div>
+            <div class="cerrar"><a class="tachita">X</a></div>
+    </div>
+<br>
+<!--Termina archivo php/account "changepsw"-->
+
+<!--Archivo php/account "register"-->
+<div class="Padre " id="Error_changepsw_registro">
+    <div class="Modal-Contenedor">
+    <p>¡Algo malo pasó!</p>
+    </div>
+        <div class="cerrar"><a class="tachita">X</a></div>
+</div>
+<br>
+<!--Termina archivo php/account "register"-->
+
+<!--Archivo php/account "validate"-->
+    <div class="Padre" id="Error_validate_user">
+    <div class="Modal-Contenedor">
+        <p>Usuario o contraseña incorrecta.</p>
+    </div>
+        <div class="cerrar"><a class="tachita">X</a></div>
+</div>
+<br>
+<!--Termina archivo php/account "validate"-->
+
+<!--Archivo php/disponibilidad "insertDisp"-->
+<div class="Padre" id="Error_insertDisp">
+    <div class="Modal-Contenedor">
+    <p>No hay datos.</p>
+    </div>
+        <div class="cerrar"><a class="tachita">X</a></div>
+</div>
+<br>    
+<!--Termina archivo php/disponibilidad "insertDisp"-->
+<div class="Padre" id="Aviso">
+    <div class="Modal-Contenedor">
+        <p>Aviso importante: Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+</div>
+<div class="cerrar"><a class="tachita">X</a></div>
+</div>
+<br>
+
+<div class="Padre" id="algo">
+    <div class="Modal-Contenedor">
+        <p>Algo.</p>
+</div>
+<div class="cerrar"><a class="tachita">X</a></div>
+</div>
+<br>
+
+<div class="Padre" id="e">
+    <div class="Modal-Contenedor">
+        <p>Algo.</p>
+</div>
+<div class="cerrar"><a class="tachita">X</a></div>
+</div>
+    <script src="./js/Alerta.js">
+    </script>
+</body>
+</html>

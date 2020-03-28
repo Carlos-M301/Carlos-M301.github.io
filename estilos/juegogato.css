@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body, html{
+    background-color: #d68245;
+    height: 100%;
+}
+main{
+    height: 80%;
+}
+.colorR {
+    background-color: #d68245;
+    transition-duration: 2s;
+
+}
+.colorV{
+    background-color: #d68245;
+    transition-duration: 2s;
+
+}
+.colorV:hover{
+    background-color: #b1212a;
+}
+.colorR:hover{
+    background-color: #21b15e;
+}
+.areajuego{
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    height: 60%;
+    justify-items: stretch;
+    font-size: 5pc;
+    font-family: 'Comfortaa';    
+}
+.cuadrado{
+    display: flex;
+    border: 1px solid black;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    color:gray;
+    transition-duration: 1s;
+}
+.cuadrado:hover{
+    color:black;
+}
+.bar{
+    width: 30%;
+    height: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2em;
+    margin-top: 1em;
+    color: #fff;
+}
+h3{
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+}
+.accion{
+    display: flex;
+    position: absolute;
+    left: 45%;
+    padding-top:3em;
+}
+button{
+    display: flex;
+    padding: 15px 32px;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    background-color: #a7a7a7;
+    border:#a7a7a7 ;
+    transition-duration: 0.4s;
+}
+  button:hover {
+    background-color: #72afbf; /* Green */
+    color: white;
+  }
+  #ganadasX,#winner,
+  #ganadasY,#empates{
+    font-family: 'Comfortaa';  
+  }
