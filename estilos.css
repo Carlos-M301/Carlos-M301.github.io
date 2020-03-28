@@ -1,0 +1,11 @@
+a:link{
+    text-decoration: none;
+}
+.icon{
+
+    width: 10%;
+    top: -2px;
+}
+svg{
+    padding-left: 2em;
+}
