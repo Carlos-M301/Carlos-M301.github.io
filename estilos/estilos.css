@@ -4,5 +4,13 @@ a:link{
 .icon{
     position: absolute;
     width: 1.7%;
-
+}
+.git{
+    width: 30px;
+    position: relative;
+}
+.git ,.pos{
+    position: relative;
+    left: 0px;
+    top: -10px;
 }

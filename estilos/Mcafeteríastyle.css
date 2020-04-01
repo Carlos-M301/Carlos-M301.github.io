@@ -2,13 +2,6 @@
 margin:0;
 padding:0;
 }
-body{
-	padding:16px;
-	background:#DAD3CD;	
-	margin-left:auto;
-	margin-right:auto;
-	width:70%;
-	}
 h1{
 	font-family: 'Bebas Neue';
 	margin:3px;
@@ -19,52 +12,49 @@ h1{
  	width: fit-content;/* Ajusta el contenido al tamaño de la página.*/
 
 }
-h3{
-	font-family: 'Oswald', sans-serif;
-	padding-bottom:.5em;
-	padding-left:.8em;
-}
-#encabezado{
-	padding-top:.5em;
-	padding-bottom:1em;
-	font-family:'Roboto Condensed', sans-serif;
-	display: flex;
-
-}
-#intro{
-	font-family:'Roboto Condensed', sans-serif;
-	text-align:justify;
-	width: fit-content;
-	padding-left:.8em;
-	padding-right:.8em;
-	padding-bottom:1em;
-}
 .contenido{
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
 	display: flex;
+	flex-direction: column;
 	background:white;
 	box-shadow: 4px 4px 20px #666; 
 	border: 1px solid #000000;
 	-moz-border-radius: 9px;
 	-webkit-border-radius:9px;
 	padding: 10px;
+	background:#FCF1D8;	
+}
+#intro{
+	font-family:'Roboto Condensed', sans-serif;
+	
+	width: fit-content;
+	padding-left:.8em;
+	padding-right:.8em;
+	padding-bottom:1em;
 }
 .imagen{
-	width:17%;
+	width:100%;
 	padding-left:5em;
 	float:left;
 	padding-right:1em;
-	
+position: relative;
 }
-.imagen img{
-	max-width:100%;
+.imagen, img{
+	width: 50%;
 	padding-top:.8em;
 }
-.precio{
-	text-align:justify;
-	font-family:'Roboto Condensed', sans-serif;
+img{
+	width: 80%;
+	position: absolute;
+	left: 10%;
 }
-.texto{
-	width:70%;
+.info{
+	display: flex;
+	width: auto;
+	height: 250px;
+	position: relative;
 }
 .texto p{
 	text-align:justify;
@@ -78,7 +68,8 @@ h3{
 .descripcion{
 font-family: 'Open Sans Condensed', sans-serif;
 }
-.texto{
-	clear:inline-end;
+h3{
+	font-family: 'Oswald', sans-serif;
+	padding-bottom:.5em;
+	padding-left:.8em;
 }
-

@@ -3,27 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-nav{
-    display: flex;
-    width: 100%;
-    height: 50px;
-    background-color: #A39997;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 1em;
-    padding-right: 1em;
-}
-.navegacion ul{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style: none;
-
-}
-.navegacion li{
-    display: inline-block;
-    padding-right: 1em;
-}
 .contenedor{
     display: grid;
     grid-template-columns:[fcl] auto [scl] 250px [tcl] 250px [focl] 250px [ficl]auto;
@@ -63,7 +42,7 @@ nav{
 }
 .informacion{
     position: relative;
-    top:90px;
+    top:70px;
     padding-right: 3em;
     padding-left: 3em; 
 }
@@ -85,7 +64,7 @@ p{
 }
 .redes{
     position: absolute;
-    bottom: 25px;
+    bottom: 10px;
     left: 35px;
 }
 .profesion{
@@ -97,6 +76,7 @@ p{
 .icono{
     width: 25%;
     padding-left: 1em;
+    position: relative;
 }
 .titulo{
     font-family: 'Dosis', sans-serif;

@@ -2,6 +2,9 @@ a:link{
     text-decoration: none;
 }
 svg, .icono{
-    position: absolute;
+    position: relative;
     top: 20px;
+}
+.git{
+    width: .2%;
 }
